@@ -36,5 +36,4 @@ Cada sección se presenta en una página HTML independiente, accesible mediante 
 
 ---
 
-## 🗂️ Estructura del proyecto
 
