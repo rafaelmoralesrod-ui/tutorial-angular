@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Instalación – Tutorial Angular</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Instalación del framework Angular</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="justificacion.html">Justificación</a>
+    <a href="instalacion.html">Instalación</a>
+    <a href="primeros-pasos.html">Primeros pasos</a>
+    <a href="uso-framework.html">Uso del framework</a>
+    <a href="funcionamiento.html">Funcionamiento</a>
+    <a href="conclusiones.html">Conclusiones</a>
+</nav>
+
+<main>
+    <h2>¿Se precisa instalación?</h2>
+
+    <p>
+        Angular no requiere una instalación tradicional como una aplicación
+        de escritorio. Se trata de un framework de desarrollo que se utiliza
+        mediante herramientas de línea de comandos y dependencias gestionadas
+        a través del ecosistema Node.js.
+    </p>
+
+    <p>
+        Por tanto, para trabajar con Angular es necesario preparar previamente
+        un entorno de desarrollo adecuado, instalando una serie de herramientas
+        que permiten crear, ejecutar y mantener proyectos Angular.
+    </p>
+
+    <h2>Requisitos previos del sistema</h2>
+
+    <p>
+        El principal requisito para trabajar con Angular es disponer de
+        <strong>Node.js</strong>, ya que Angular utiliza npm (Node Package
+        Manager) para la gestión de dependencias y la instalación de herramientas
+        auxiliares.
+    </p>
+
+    <p>
+        Se recomienda instalar una versión LTS (Long Term Support) de Node.js,
+        ya que garantiza una mayor estabilidad y compatibilidad con Angular.
+        En el momento de la realización de este tutorial, se recomienda una
+        versión igual o superior a Node.js 18.
+    </p>
+
+    <h2>Pasos para la instalación del entorno Angular</h2>
+
+    <h3>1. Instalación de Node.js</h3>
+
+    <p>
+        Node.js puede descargarse desde su sitio web oficial. Durante el proceso
+        de instalación no es necesario realizar configuraciones avanzadas, ya
+        que el instalador añade automáticamente Node.js y npm al sistema.
+    </p>
+
+    <p>
+        Una vez finalizada la instalación, se puede comprobar su correcto
+        funcionamiento ejecutando los siguientes comandos en una terminal:
+    </p>
+
+    <pre><code>node -v
+npm -v</code></pre>
+
+    <h3>2. Instalación de Angular CLI</h3>
+
+    <p>
+        Angular CLI (Command Line Interface) es la herramienta oficial para
+        trabajar con Angular. Permite crear proyectos, generar componentes,
+        ejecutar servidores de desarrollo y compilar la aplicación.
+    </p>
+
+    <p>
+        La instalación de Angular CLI se realiza de forma global mediante npm,
+        utilizando el siguiente comando:
+    </p>
+
+    <pre><code>npm install -g @angular/cli</code></pre>
+
+    <p>
+        Tras la instalación, se puede verificar la versión instalada mediante:
+    </p>
+
+    <pre><code>ng version</code></pre>
+
+    <h2>Versiones necesarias y compatibilidad</h2>
+
+    <p>
+        Angular mantiene una política de versiones bien definida. Cada versión
+        principal del framework está asociada a rangos concretos de versiones
+        de Node.js. Por este motivo, es importante asegurarse de que las versiones
+        utilizadas son compatibles entre sí.
+    </p>
+
+    <p>
+        En este tutorial se ha trabajado con una versión reciente de Angular
+        compatible con Node.js LTS, lo que garantiza un entorno estable y
+        alineado con las recomendaciones oficiales.
+    </p>
+
+    <h2>Rutas y estructura de trabajo</h2>
+
+    <p>
+        No es necesario configurar manualmente rutas del sistema para trabajar
+        con Angular, siempre que Node.js y Angular CLI se hayan instalado
+        correctamente. Estas herramientas se añaden automáticamente a la
+        variable de entorno PATH del sistema.
+    </p>
+
+    <p>
+        Los proyectos Angular se crean dentro de una carpeta de trabajo elegida
+        por el desarrollador. Angular CLI genera automáticamente la estructura
+        de directorios necesaria, por lo que no es preciso crear rutas de forma
+        manual.
+    </p>
+
+    <h2>Variables de entorno</h2>
+
+    <p>
+        Angular no requiere la definición manual de variables de entorno para
+        su funcionamiento básico. Sin embargo, el framework permite definir
+        variables de entorno específicas del proyecto para gestionar distintos
+        entornos, como desarrollo o producción.
+    </p>
+
+    <p>
+        Estas variables se gestionan mediante archivos de configuración internos
+        del proyecto, lo que facilita la adaptación de la aplicación a distintos
+        escenarios sin modificar el código fuente principal.
+    </p>
+
+    <h2>Necesidad de base de datos</h2>
+
+    <p>
+        Angular es un framework de frontend y, por tanto, no requiere una base
+        de datos para su funcionamiento. En las fases iniciales del desarrollo
+        no es necesario disponer de ningún sistema de almacenamiento de datos.
+    </p>
+
+    <p>
+        En aplicaciones reales, Angular suele comunicarse con servicios backend
+        que gestionan el acceso a bases de datos, pero este aspecto queda fuera
+        del alcance de la instalación y no es obligatorio para comenzar a
+        trabajar con el framework.
+    </p>
+
+    <h2>Resumen del proceso de instalación</h2>
+
+    <p>
+        En resumen, la instalación de Angular consiste en preparar un entorno
+        de desarrollo basado en Node.js, instalar Angular CLI y verificar que
+        las herramientas funcionan correctamente. Este proceso es sencillo y
+        rápido, lo que permite comenzar a desarrollar aplicaciones Angular en
+        pocos minutos.
+    </p>
+</main>
+
+<footer>
+    <p>
+        © 2025 – Tutorial Angular · Rafael Morales ·
+        Desarrollo de Aplicaciones en Red
+    </p>
+</footer>
+
+</body>
+</html>

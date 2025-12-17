@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeros pasos – Tutorial Angular</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Primeros pasos con Angular</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="justificacion.html">Justificación</a>
+    <a href="instalacion.html">Instalación</a>
+    <a href="primeros-pasos.html">Primeros pasos</a>
+    <a href="uso-framework.html">Uso del framework</a>
+    <a href="funcionamiento.html">Funcionamiento</a>
+    <a href="conclusiones.html">Conclusiones</a>
+</nav>
+
+<main>
+    <h2>Primera aproximación a Angular</h2>
+
+    <p>
+        Una vez instalado el entorno de desarrollo, el primer contacto práctico
+        con Angular se realiza mediante la creación de una aplicación básica,
+        comúnmente conocida como “Hola Mundo”. Este ejemplo permite comprobar
+        que el entorno funciona correctamente y entender el flujo básico de
+        trabajo con el framework.
+    </p>
+
+    <h2>Creación de un nuevo proyecto Angular</h2>
+
+    <p>
+        Para crear una nueva aplicación Angular se utiliza Angular CLI desde
+        una terminal. El siguiente comando genera automáticamente la estructura
+        inicial del proyecto:
+    </p>
+
+    <pre><code>ng new hola-angular</code></pre>
+
+    <p>
+        Durante la ejecución del comando, Angular CLI solicita al usuario
+        algunas opciones de configuración, como el uso de enrutamiento o el
+        formato de hojas de estilo.
+    </p>
+
+    <figure>
+        <img src="../assets/images/ng-new.png" alt="Ejecución del comando ng new en Angular">
+        <figcaption>Creación de un nuevo proyecto Angular mediante ng new</figcaption>
+    </figure>
+
+    <h2>Ejecución de la aplicación (“Hola Mundo”)</h2>
+
+    <p>
+        Una vez creado el proyecto, se accede a su carpeta y se lanza el servidor
+        de desarrollo mediante el siguiente comando:
+    </p>
+
+    <pre><code>cd hola-angular
+ng serve</code></pre>
+
+    <p>
+        Angular compila la aplicación y la pone a disposición del usuario en un
+        servidor web local accesible desde el navegador.
+    </p>
+
+    <figure>
+        <img src="../assets/images/ng-serve.png" alt="Ejecución del comando ng serve en Angular">
+        <figcaption>Servidor de desarrollo Angular en ejecución</figcaption>
+    </figure>
+
+    <p>
+        La aplicación puede visualizarse accediendo a la siguiente dirección:
+    </p>
+
+    <pre><code>http://localhost:4200</code></pre>
+
+    <p>
+        Al abrir esta URL en el navegador, se muestra la página inicial generada
+        por Angular, que constituye el primer “Hola Mundo” del framework.
+    </p>
+
+    <h2>Conclusión de los primeros pasos</h2>
+
+    <p>
+        Esta primera aproximación confirma que el entorno Angular está
+        correctamente configurado y que el desarrollador puede crear y ejecutar
+        una aplicación funcional. A partir de este punto, se pueden introducir
+        conceptos más avanzados como componentes, servicios y navegación.
+    </p>
+</main>
+
+<footer>
+    <p>
+        © 2025 – Tutorial Angular · Rafael Morales ·
+        Desarrollo de Aplicaciones en Red
+    </p>
+</footer>
+
+</body>
+</html>

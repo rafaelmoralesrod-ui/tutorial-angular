@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Funcionamiento – Tutorial Angular</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Funcionamiento del framework Angular</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="justificacion.html">Justificación</a>
+    <a href="instalacion.html">Instalación</a>
+    <a href="primeros-pasos.html">Primeros pasos</a>
+    <a href="uso-framework.html">Uso del framework</a>
+    <a href="funcionamiento.html">Funcionamiento</a>
+    <a href="conclusiones.html">Conclusiones</a>
+</nav>
+
+<main>
+    <h2>¿Sobre qué elementos actúa Angular?</h2>
+
+    <p>
+        Angular no actúa directamente sobre páginas HTML completas de forma
+        tradicional, como ocurre en aplicaciones web clásicas. En su lugar,
+        el framework trabaja sobre una arquitectura basada en <strong>componentes</strong>,
+        que representan secciones reutilizables de la interfaz de usuario.
+    </p>
+
+    <p>
+        Cada componente controla una parte concreta del DOM y está asociado a
+        un conjunto de ficheros que definen su comportamiento, su estructura
+        visual y su estilo. De este modo, Angular actúa sobre componentes y
+        plantillas, en lugar de sobre páginas independientes.
+    </p>
+
+    <h2>Ficheros que intervienen en el funcionamiento del framework</h2>
+
+    <p>
+        El funcionamiento de Angular se basa en la interacción entre distintos
+        tipos de ficheros, cada uno con una responsabilidad bien definida.
+        Entre los más importantes se encuentran:
+    </p>
+
+    <ul>
+        <li>
+            <strong>Ficheros TypeScript (.ts):</strong> contienen la lógica del
+            componente, definiendo su comportamiento y estado.
+        </li>
+        <li>
+            <strong>Plantillas HTML (.html):</strong> describen la estructura
+            visual del componente y cómo se presentan los datos.
+        </li>
+        <li>
+            <strong>Hojas de estilo (.css, .scss):</strong> controlan la
+            apariencia visual del componente.
+        </li>
+        <li>
+            <strong>Módulos (.ts):</strong> agrupan componentes y servicios,
+            organizando la aplicación de forma modular.
+        </li>
+    </ul>
+
+    <p>
+        Esta separación de ficheros favorece la claridad del código y permite
+        modificar cada aspecto de la aplicación de manera independiente.
+    </p>
+
+    <h2>Edición y modificación de los ficheros</h2>
+
+    <p>
+        Los ficheros que componen una aplicación Angular se editan utilizando
+        un editor de código, como Visual Studio Code. El desarrollador modifica
+        directamente los archivos TypeScript, HTML o CSS según el cambio que
+        desee realizar.
+    </p>
+
+    <p>
+        Angular incorpora un sistema de compilación y recarga automática.
+        Cuando se modifica un fichero y se guarda, el servidor de desarrollo
+        recompila la aplicación y actualiza el navegador, permitiendo visualizar
+        los cambios de forma inmediata.
+    </p>
+
+    <p>
+        Este mecanismo facilita el desarrollo iterativo y permite detectar
+        errores de forma temprana, ya que el impacto de cada modificación puede
+        observarse al instante.
+    </p>
+
+    <h2>Relación entre componentes y navegación</h2>
+
+    <p>
+        En aplicaciones Angular, la navegación entre distintas vistas no se
+        realiza mediante la carga de nuevas páginas HTML, sino mediante la
+        activación de distintos componentes. El sistema de enrutamiento del
+        framework se encarga de mostrar un componente u otro en función de la
+        ruta solicitada.
+    </p>
+
+    <p>
+        De este modo, Angular actúa sobre secciones de la aplicación que se
+        cargan y descargan dinámicamente, manteniendo una experiencia de
+        usuario fluida propia de las aplicaciones de una sola página.
+    </p>
+
+    <h2>Referencia de ficheros y reutilización desde otras aplicaciones</h2>
+
+    <p>
+        Los ficheros y componentes creados en Angular se referencian
+        internamente mediante el sistema de módulos y la importación de
+        dependencias. Un componente puede utilizar a otro siempre que esté
+        correctamente declarado en el módulo correspondiente.
+    </p>
+
+    <p>
+        Desde el punto de vista externo, Angular genera una aplicación web
+        compilada que puede integrarse o desplegarse junto con otras
+        aplicaciones. El resultado final es un conjunto de archivos estáticos
+        (HTML, CSS y JavaScript) que pueden ser servidos desde cualquier
+        servidor web o integrados en sistemas mayores.
+    </p>
+
+    <p>
+        En este sentido, Angular no se referencia como una librería desde otras
+        aplicaciones, sino que se utiliza como una solución completa de
+        frontend que se comunica con otros sistemas a través de servicios web
+        o APIs.
+    </p>
+
+    <h2>Resumen del funcionamiento del framework</h2>
+
+    <p>
+        En resumen, Angular actúa sobre componentes y plantillas en lugar de
+        páginas completas, organiza el código en ficheros especializados y
+        proporciona mecanismos para editar, compilar y visualizar los cambios
+        de forma inmediata. Este enfoque permite desarrollar aplicaciones web
+        modernas, estructuradas y altamente mantenibles.
+    </p>
+</main>
+
+<footer>
+    <p>
+        © 2025 – Tutorial Angular · Rafael Morales ·
+        Desarrollo de Aplicaciones en Red
+    </p>
+</footer>
+
+</body>
+</html>
